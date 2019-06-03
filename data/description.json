@@ -1,0 +1,62 @@
+{
+    "phpsocialmedia":{
+        "title":"",
+        "description":"",
+        "href":"http://dana-hedrick.com/",
+        "skills":["PHP","SQL","AJAX"],
+        "src":""
+    },
+    "bowl_shop":{
+        "title":"The Bowl Shop",
+        "description":"A mock restaurant Vue.js app, made by displaying each component page on click of the pages tabs.",
+        "href":"http://dana-hedrick.com/thebowlshop/",
+        "skills":["JavaScript", "Vue.js","Sass"],
+        "src":"http://dana-hedrick.com/img/full/bowl_shop_full.PNG"
+    },
+    "isolation": {
+        "title":"Isolation",
+        "description":"Isolation is a text adventure made with Vue.js. Location data is stored in JSON files, as will character data in the future. Currently in development.",
+        "href":"http://dana-hedrick.com/isolation",
+        "skills":["JavaScript", "Vue.js", "JSON", "Sass"],
+        "src":"http://dana-hedrick.com/img/full/isolation.PNG"
+    },
+    "js_char": {
+        "title": "Character Creator",
+        "description": "A Dark Souls inspired character creator. Characters are created with randomly generated stats. Those stat's are then used in a battle against a randomly generated opponent.",
+        "href": "https://codepen.io/Peekoh/full/ZMZBGe",
+        "skills":["JavaScript", "Bootstrap", "Math Functions", "Objects"],
+        "src":"http://dana-hedrick.com/img/full/undead_gen_full.png"
+    },
+    "js_form": {
+        "title": "Sign Up Form",
+        "description": "A sign up form validated using Javascript. The form's input element are checked for proper length, and value. User's are given feedback on blur, focus, and submit.",
+        "href": "https://codepen.io/Peekoh/full/xymWpa",
+        "skills":["JavaScript", "DOM Manipulation", "Form Validation","Event Listeners"],
+        "src":"http://dana-hedrick.com/img/full/js_form.png"
+    },
+    "php_form": {
+        "title": "Contact Form",
+        "description": "A World of Warcraft themed contact form. Validation is done via PHP, and users are show feedback through an AJAX request on submit.",
+        "href": "http://dana-hedrick.com/contact_form/",
+        "skills":["PHP", "jQuery","Form Validation", "AJAX", "Bootstrap"],
+        "src":"http://dana-hedrick.com/img/full/contact_form.PNG"
+    },
+    "lorem_ipsum": {
+        "title": "Fantasy Babble Generator",
+        "description": "A fantasy Lorem Impsum generator made using arrays and PHP's \"mt_rand\" function.",
+        "href": "http://dana-hedrick.com/lorem_ipsum/",
+        "skills":["PHP", "Form Data", "Arrays and Loops"],
+        "src":"http://dana-hedrick.com/img/full/lorem_ipsum.png"
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

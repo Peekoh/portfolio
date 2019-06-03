@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dana-hedrick.com[nc]
+RewriteRule ^(.*)$ http://www.dana-hedrick.com/$1 [r=301,nc]
+
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+
+Options All -Indexes

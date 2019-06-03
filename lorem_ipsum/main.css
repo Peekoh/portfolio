@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Roboto');
+
+h1 {
+    text-align: center;
+    margin: auto;
+   font-family: 'Germania One', cursive;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 210, 217);
+    background-color: #61604E;
+    background-size: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background-image:url('background.jpeg');
+    background-size:cover;
+    background-position: center;
+    text-shadow:2px 2px 2px black;
+}
+
+
+#header {
+    background-color: #0C1125;
+    width: 80%;
+    margin: 1em auto;
+    padding:1em;
+    border:groove 2px rgb(255, 210, 217);
+    border-radius:5px;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+input {
+    margin: 1em;
+    padding: .3em;
+    background-color: #773346;
+    color: rgb(255, 210, 217);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 14em;
+    height:2em;
+}
+
+#output {
+    display:block;
+    border:groove 2px rgb(255, 210, 217);
+    border-radius:5px;
+    background-color:#0C1125;
+    padding: 1em;
+    margin: 1em auto 1em;
+    width: 80%;
+}
+

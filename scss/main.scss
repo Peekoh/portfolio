@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+$fontmain:'Raleway',
+sans-serif;
+$fonthead:'Montserrat',
+sans-serif;
+/*   $drk: #29211F;
+$lite: rgb(209, 151, 93);
+$accent-2:#798E87;
+$drk:#CCC591;    */
+
+/*  $drk:#27363B;
+$lite: #9AB999;
+ $accent-2:rgb(233, 217, 205);
+ $drk:#27363B; 
+ #CCC591   */
+
+$drk:#29211F;
+$lite:rgb(207, 203, 168);
+$accent:#C27D38;
+$accent-2: #798E87;
+
+%reset {
+    margin: 0;
+    padding: 0;
+}
+
+%max {
+    height: 100%;
+    width: 100%;
+}
+
+%textstyle {
+    font-size: 1em;
+    color: $drk;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: $fontmain;
+}
+
+%headerstyle {
+    font-family: $fonthead;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+%buttonstyle {
+    @extend %textstyle;
+    text-decoration: none;
+    background-color: $drk;
+    color: $lite;
+}
+%scrollpad {
+    padding:4em 0 0 0;
+}
+
+@mixin flex ($display, $justify, $align, $dir, $wrap) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+}

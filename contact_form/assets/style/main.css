@@ -1,0 +1,20 @@
+
+.icon{
+     height:2em;
+ }
+ h1, h2{
+     font-family:'Dokdo', cursive;
+ }
+#submit{
+    font-weight: bold;
+    margin:auto;
+}
+#msg {
+    padding:1em;
+}
+.navbar-nav{
+    flex-direction:row !important;
+}
+li{
+    margin:.5em;
+}

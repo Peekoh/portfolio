@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Roboto');
+
+
+
+body,
+html {
+    background-image: url('BG.png');
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dokdo', cursive;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #371f17;
+    color: #e9ddcb;
+    
+}
+
+header {
+    padding: 2em;
+    margin: 0;
+}
+
+form {
+    background-image: url('form_bg.png');
+    border-radius: 5px;
+    border: #371f17 10px double;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+    margin: auto;
+    background-color: #8d3113;
+}
+label{
+    font-size:1.5em;
+}
+
+select,
+input,
+textarea {
+    background-color: #e9ddcb;
+    border: #371f17 5px double;
+    border-radius: 5px;
+}
+
+
+.item div {
+    padding: .5em;
+    margin: auto;
+    width: 50vmin;
+    height: 3em;
+
+}
+
+.item div input,
+.item select,
+.gold {
+    padding: .5em;
+    width: 20em;
+    float: right;
+
+}
+
+.item div label,
+.item label {
+    text-align: left;
+    padding: .5em;
+    float: left;
+
+}
+
+#interests {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 30%;
+    margin: auto;
+}
+
+#interests span {
+    text-align: left;
+    padding: 1px;
+}
+
+#interests span label {
+    padding-left: 1em;
+}
+#right{
+    align-self:right;
+}
+ .item #contribute{
+    width: 30%;
+}
+ 
+.signup {
+    padding: 1em 1em 0;
+    width: 20em;
+    height: 3em;
+    margin: auto;
+    font-size:1.5em;
+}
+
+.gold {
+    width: 15% !important;
+
+}
+
+#comment {
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    padding: .2em;
+    font-family: 'Dokdo', cursive;
+    font-size:1.5em;
+}
+
+#submit {
+    padding: .2em;
+    width: 10em;
+    margin: auto;
+    border-radius: 5px;
+    border: #371f17 5px double;
+    font-family: 'Dokdo', cursive;
+    font-size:1.5em;
+}
+
+#msg {
+      padding:1em;
+      font-size:1.5em;
+}
+  
